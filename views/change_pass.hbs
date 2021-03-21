@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Change Password</title>
+    <style>
+        *{
+            border: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+  </head>
+  <body>
+   <div class="container">
+       <div class="row mt-3">
+           <div class="col-12">
+            <form method="POST" action="/api/auth/change-password">
+                <div class="form-group">
+                  <label for="password">Please enter your new password</label>
+                  <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                  <input style="display: none;" type="key" name="key" class="form-control" id="key" placeholder="key" value="{{key}}">
+                </div>
+                <button type="submit" class="btn btn-primary">Change Password</button>
+              </form>
+           </div>
+       </div>
+   </div>
+
+  </body>
+</html>
