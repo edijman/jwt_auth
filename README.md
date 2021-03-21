@@ -12,7 +12,9 @@ This was developed with Node js, express, mongoose, nodemailer, Jsonwebtoken, bc
 `git clone https://github.com/edijman/jwt_auth` 
 # INSTALL 
 ## Install dependencies
-`npm install`
+```bash
+npm install
+```
 
 ## Configuration
 create a file called .env and place it in the root directly. This file would contain your database url, token secret and your email service credentials, Copy, paste and fill the settings below to the .env file. you can change the two token expiration duration to any length you want
@@ -30,7 +32,9 @@ loginTokenDuration = '7d'
 confirmationTokenDuration = '1d' 
 ```
 ## Start server
-`npm start`
+```bash
+npm start
+```
 The server runs at port 4000
 
 # API Endpoints
