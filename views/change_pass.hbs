@@ -23,7 +23,7 @@
             <form method="POST" action="/api/auth/change-password">
                 <div class="form-group">
                   <label for="password">Please enter your new password</label>
-                  <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                  <input type="password" name="password" class="form-control" id="password" placeholder="Password" minlength="6" required>
                   <input style="display: none;" type="key" name="key" class="form-control" id="key" placeholder="key" value="{{key}}">
                 </div>
                 <button type="submit" class="btn btn-primary">Change Password</button>
