@@ -9,10 +9,6 @@ This was developed with Node js, express, mongoose, nodemailer, Jsonwebtoken, bc
 - and lastly provide and interface for user to change password after clicking the link in the email
 # Download
 `git clone https://github.com/edijman/jwt_auth` 
-
 # INSTALL 
 ## Install dependencies
 `npm install`
-
-#Configuration
-[title]
