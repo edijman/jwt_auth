@@ -9,7 +9,7 @@ This was developed with Node js, express, mongoose, nodemailer, Jsonwebtoken, bc
 - Forgot Password: This include sending a forgot passsword email to user
 - and lastly provide an interface for user to change password after clicking the link in the email
 # Download
-`git clone https://github.com/edijman/jwt_auth` 
+`git clone https://github.com/idris-adigun/jwt_auth` 
 # INSTALL 
 ## Install dependencies
 ```bash
